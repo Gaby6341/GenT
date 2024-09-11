@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./img/letter-g.png">
+    <script src="https://kit.fontawesome.com/dbea35bf29.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg text-uppercase position-fixed w-100">
+        <div class="container">
+            <a class="navbar-brand font-weight-bold w-50" href="#"><img src="./img/letter-g.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto ">
+                    <a class="nav-item nav-link px-lg-4" href="#seccion1">Inicio</a>
+                    <a class="nav-item nav-link px-lg-4" href="#seccion2">Sobre Mi</a>
+                    <a class="nav-item nav-link px-lg-4" href="#seccion3">Portfolio</a>
+                    <a class="nav-item nav-link px-lg-4" href="#seccion4">Contactame</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Seccion Inicio -->
+    <section class="main py-5" id="seccion1">
+        <div class="container py-5">
+            <div class="row py-5">
+                <div class="col-lg-6 py-5 mr-auto">
+                    <h3 data-aos="fade-right" data-aos-duration="2000">Matías Gabriel Carrasco</h3>
+                    <h6 class="pt-3" data-aos="fade-right" data-aos-duration="2000">Estudiante y Programador Junior</h6>
+                    <a href="#seccion3"><input type="button" value="Portfolio" class="bt1 mt-5" data-aos="fade-right"
+                        data-aos-duration="2000"></a>
+                    <a href="#seccion2"><input type="button" value="Conoce un poco sobre mi" class="bt2 mt-5" data-aos="fade-left"
+                        data-aos-duration="2000"></a>
+                    <div class="redes" data-aos="fade-up" data-aos-duration="2000">
+                        <a href="https://www.facebook.com/profile.php?id=100013567985722&locale=es_LA"><i class="iconos fa-brands fa-facebook-f"></i></i></a>
+                        <a href="https://discord.com/channels/@gaby_t0"><i class="iconos fa-brands fa-discord"></i></a>
+                        <a href="https://www.instagram.com/maaticarrasco_/"><i class="iconos fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="iconos fa-brands fa-whatsapp"></i></a>
+                        <a href="https://github.com/Gaby6341"><i class="iconos fa-brands fa-github"></i></a>
+                    </div>
+                    <div>
+                        <img src="./img/silly.jpeg" alt="hero" class="me img-fluid" data-aos="fade-left"
+                            data-aos-duration="2000">
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- seccion sobre mi -->
+    <section class="about py-5" id="seccion2">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-5">
+                    <img src="./img/nako.jpg" alt="nakoshi" data-aos="fade-right" data-aos-duration="2000"
+                        class="w-100 img-fluid">
+                </div>
+                <div class="col-lg-7 py-5">
+                    <h1 data-aos="fade-left" data-aos-duration="2000">Un Poco Sobre Mi</h1>
+                    <h6 class="py-1" data-aos="fade-left" data-aos-duration="2000">Estudiante</h6>
+                    <div class="texto py-3" data-aos="fade-left" data-aos-duration="2000">
+                        Soy <span class="font-weight-bold">Matías Gabriel Carrasco</span>, tengo 17 años y soy de Buenos
+                        Aires. Actualmente me encuentro cursando 6to año de secundaria y el curso generacion T
+                        asincronico, trato de mejorar en cuanto a mis habilidades y estoy dispuesto a conocer otras
+                        experiencias.
+                    </div>
+                    <hr class="w-75" data-aos="zoom-in-right" data-aos-duration="2500">
+                    <div class="progress-container" data-aos="fade-left" data-aos-duration="2000">
+                        <h6 class="skill my-4">habilidades</h6>
+                        <div class="progress my-3">
+                            <div class="pro-value1">
+                                <ul>HTML <span class="text-white float-end ">80%</span></ul>
+                            </div>
+                        </div>
+                        <div class="progress my-3">
+                            <div class="pro-value2">
+                                <ul>CSS <span class="text-white float-end">60%</span></ul>
+                            </div>
+                        </div>
+                        <div class="progress my-3">
+                            <div class="pro-value3">
+                                <ul>JAVASCRIPT <span class="text-white float-end">30%</span></ul>
+                            </div>
+                        </div>
+                        <div class="progress my-3">
+                            <div class="pro-value4">
+                                <ul>BOOTSTRAP 5 <span class="text-white float-end">20%</span></ul>
+                            </div>
+                        </div>
+                        <div class="progress my-3">
+                            <div class="pro-value5">
+                                <ul>INGLES <span class="text-white float-end">90%</span></ul>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="./currículum profesional  monocromático verde .pdf" download class="download-btn"><input type="button" value="Descargar CV"  class="btn1" data-aos="fade-up" data-aos-duration="2000"></a> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- seccion portfolio -->
+    <section class="portfolio" id="seccion3">
+        <div class="container py-5 ">
+            <h1 class="text-center py-5" data-aos="fade-down" data-aos-duration="2000">Mi Portfolio</h1>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 py-5" data-aos="fade-right" data-aos-duration="2000">
+                    <div class="item">
+                        <a href="https://chipper-bombolone-b6b054.netlify.app"><img src="./img/Tp1gent.png"
+                                alt="trabajo1" class="img-fluid">
+                            <span><i class="fas fa-link"></i></span></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 py-5" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="item">
+                        <a href="https://glistening-fenglisu-97c6b9.netlify.app"><img src="./img/Tp2gent.png"
+                                alt="trabajo1" class="img-fluid">
+                            <span><i class="fas fa-link"></i></span></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 py-5" data-aos="fade-left" data-aos-duration="2000">
+                    <div class="item">
+                        <a href="https://sparkling-tulumba-ccc51a.netlify.app"><img src="./img/Tp3gent.png"
+                                alt="trabajo1" class="img-fluid">
+                            <span><i class="fas fa-link"></i></span></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 py-5" data-aos="fade-right" data-aos-duration="2000">
+                    <div class="item">
+                        <a href="https://comforting-horse-0e6630.netlify.app"><img src="./img/Tp4gent.png"
+                                alt="trabajo1" class="img-fluid">
+                            <span><i class="fas fa-link"></i></span></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 py-5" data-aos="fade-left" data-aos-duration="2000">
+                    <div class="item">
+                        <a href="https://clinquant-crostata-b63db6.netlify.app"><img src="./img/Tp6gent.png"
+                                alt="trabajo1" class="img-fluid">
+                            <span><i class="fas fa-link"></i></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- seccion contactos -->
+    <section class="contact py-5" id="seccion4">
+        <div class="container py-5">
+            <h1 class="text-center" data-aos="fade-down" data-aos-duration="2000">Contactame.</h1>
+            <div class="row py-5 d-inline">
+                <div class="col-lg-10 mx-auto">
+                    <div class="row justify-content-center text-center" data-aos="fade-up" data-aos-duration="2000">
+                        <div class="col-lg-4 py-5 ">
+                            <a href="https://www.facebook.com/profile.php?id=100013567985722&locale=es_LA">
+                                <div class="circle">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </div>
+                        </a>
+                            <h5>Facebook</h5>
+                        </div>
+                        <div class="col-lg-4 py-5">
+                            <a href="https://discord.com/channels/@gaby_t0">
+                                <div class="circle">
+                                <i class="fa-brands fa-discord"></i>
+                            </div>
+                        </a>
+                            <h5>Discord</h5>
+                        </div>
+                        <div class="col-lg-4 py-5">
+                            <a href="https://www.instagram.com/maaticarrasco_/">
+                            <div class="circle">
+                                <i class="fa-brands fa-instagram"></i>
+                            </div></a>
+                            <h5>Instagram</h5>
+                        </div>
+                        <div class="col-lg-4 py-5">
+                            <a href=""><div class="circle">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </div>
+                        </a>
+                            <h5>
+                                Whatsapp
+                            </h5>
+                        </div>
+                        <div class="col-lg-4 py-5">
+                            <a href="https://github.com/Gaby6341"><div class="circle">
+                                <i class="fa-brands fa-github"></i>
+                            </div>
+                        </a>
+                            <h5>
+                                Github
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer py-5 text-center bg-black text-white">
+             Derechos y pagina reservados © por Matias Gabriel Carrasco 7-10/8/2024 
+        </div>
+    </footer>
+
+
+    <script src="./script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
